@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Goblin+One&display=swap');
+
+:root {
+    --primary-color: #22c55e;
+    --dark-color: black;
+    --white-color: white;
+}
+
+body {
+    font-family: "Goblin One", serif;
+    font-weight: 400;
+    font-size: small;
+    background-color: var(--primary-color);
+}
+
+.container-center {
+    max-width: 600px;
+    text-align: center;
+    margin: auto;
+}
+
+#btn-translate {
+    padding: 0.5rem;
+    border-radius: 3rem;
+    background-color: var(--dark-color);
+    color: var(--white-color);
+    display: block;
+}
+
+#input,
+#output {
+    padding: 1rem;
+}
+
+textarea{
+    margin: auto;
+    display: block;
+}
+
